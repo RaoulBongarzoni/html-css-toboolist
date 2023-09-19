@@ -17,7 +17,7 @@ html{
 
 
 .logoback{
-    background-color:aliceblue;
+    background-color:rgb(255, 255, 255);
     background-repeat: repeat-x;
     padding: 0.5em 1em;
     position: relative;
@@ -30,7 +30,7 @@ html{
 } 
 
 main{
-    background-color: grey;
+    background-color: rgb(225, 225, 225);
     padding: 5% 15% 2% 15%;
 }
 
@@ -50,22 +50,22 @@ main{
 
 #attivita{
     color: white;
-    background-color: blue;
-    padding: 9px;
+    background-color: rgb(77, 77, 219);
+    padding: 8px 12px;
     border-radius: 5px;
-    font-size: x-small;
+    font-size: 10px;
     margin-right: 1px;
 }
 
 #sezione{
-    color: gray;
+    color: rgb(225, 225, 225);
     margin-left: 1px;
-    padding: 8px;
+    padding: 7px 12px;
     border-radius: 5px;
-    font-size: x-small;
+    font-size: 10px;
     outline-width: 0.5px;
     outline-style: solid;
-    outline-color: gray;
+    outline-color: rgb(225, 225, 225);
 }
 
 
@@ -76,19 +76,33 @@ p{
 }
 
 .principale{
-
+    display: block;
     background-color:white;
     margin-top: 2px;
-    padding: 40px 5px 15px 50px;
+    padding: 40px 5px 15px 45px;
 /*     border-top-right-radius: ;
     border-top-left-radius: ; */
 
-
-
 }
 
-.principale ul,li{
+.principale h3{
+    
+    line-height: 110%;
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.principale ul li{
+    
+    padding-top: 5px ;
     list-style-type: none;
+    margin-bottom: 1em;
     
 }
 
+.principale ul{
+
+    margin-bottom:2em;
+
+
+}
