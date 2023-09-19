@@ -14,12 +14,12 @@ html{
 
 
 
-
+/* banner in alto e logo */
 
 .logoback{
     background-color:rgb(255, 255, 255);
     background-repeat: repeat-x;
-    padding: 0.5em 1em;
+    padding: 0.2em 1em;
     position: relative;
 }
 
@@ -29,9 +29,12 @@ html{
     vertical-align: 30%;
 } 
 
+
+/* sfondo corpo principale */
 main{
-    background-color: rgb(225, 225, 225);
-    padding: 5% 15% 2% 15%;
+    background-color: rgb(246, 248, 249);
+    padding: 3% 15%  15%;
+    
 }
 
 
@@ -40,7 +43,7 @@ main{
 
 
 
-
+/* layout dei bottoni e primo box */
 .bottoni{
     background-color:white;
     padding: 20px 5px 15px 50px;
@@ -50,7 +53,7 @@ main{
 
 #attivita{
     color: white;
-    background-color: rgb(77, 77, 219);
+    background-color: rgb(71, 173, 241);
     padding: 8px 12px;
     border-radius: 5px;
     font-size: 10px;
@@ -58,51 +61,94 @@ main{
 }
 
 #sezione{
-    color: rgb(225, 225, 225);
+    color: rgb(197, 203, 208);
     margin-left: 1px;
     padding: 7px 12px;
     border-radius: 5px;
     font-size: 10px;
     outline-width: 0.5px;
     outline-style: solid;
-    outline-color: rgb(225, 225, 225);
+    outline-color: rgb(197, 203, 208);
 }
-
-
-
 
 p{
     display: inline;
 }
 
+
+/*  layout box principale*/
 .principale{
+
     display: block;
     background-color:white;
     margin-top: 2px;
-    padding: 40px 5px 15px 45px;
-/*     border-top-right-radius: ;
-    border-top-left-radius: ; */
+    padding: 30px 5px 15px 45px;
+     border-bottom-right-radius: 5px ;
+    border-bottom-left-radius: 5px ; 
 
 }
 
-.principale h3{
+
+/* formattazione delle sezioni e delle attività  e spaziatura*/
+.principale h4{
     
-    line-height: 110%;
-    font-size: 19px;
+    color: rgb(68, 72, 80);
+    line-height: 100%;
+    font-size: 18px;
     font-weight: 800;
 }
 
 .principale ul li{
-    
-    padding-top: 5px ;
+    padding-left: 0.5em;
     list-style-type: none;
-    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+    color: rgb(68, 72, 80);
+    font-weight: 600;
+    
     
 }
 
-.principale ul{
+.principale ul li:last-child{
 
-    margin-bottom:2em;
-
-
+    margin-bottom: 2em;
 }
+
+.principale ul{ 
+    padding-top: 0.5em;
+    margin-bottom:0.8em;
+}
+
+
+/* formattazione delle icone a colori */
+
+.check{
+    font-size: xx-small;
+    border: 1px solid #60bea6;
+    border-radius: 50%;
+    color: #60bea6;
+    padding: 1px 3px;
+    
+}
+.cross{
+    font-size: xx-small;
+    border: 1px solid #e7273f;
+    border-radius: 50%;
+    color: #e7273f;
+    padding: 1px 3px;
+    
+}
+
+.etichetta{
+
+    color: white;
+    padding: 8px 10px;
+    border-radius: 13px;
+    font-size: 10px;
+    margin-left: 0.3em;
+
+
+    /* per le varie etichette si cambia il colore per la singola cella */
+}   /* il layout rimane invariato */
+
+
