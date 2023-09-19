@@ -6,7 +6,6 @@
 
 
 html{
-
     font-family: sans-serif;
 }
 
@@ -24,10 +23,72 @@ html{
     position: relative;
 }
 
-
 .logoback h1{
     display: inline-block;
     font-weight: 900;
     vertical-align: 30%;
 } 
+
+main{
+    background-color: grey;
+    padding: 5% 15% 2% 15%;
+}
+
+
+
+
+
+
+
+
+.bottoni{
+    background-color:white;
+    padding: 20px 5px 15px 50px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#attivita{
+    color: white;
+    background-color: blue;
+    padding: 9px;
+    border-radius: 5px;
+    font-size: x-small;
+    margin-right: 1px;
+}
+
+#sezione{
+    color: gray;
+    margin-left: 1px;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: x-small;
+    outline-width: 0.5px;
+    outline-style: solid;
+    outline-color: gray;
+}
+
+
+
+
+p{
+    display: inline;
+}
+
+.principale{
+
+    background-color:white;
+    margin-top: 2px;
+    padding: 40px 5px 15px 50px;
+/*     border-top-right-radius: ;
+    border-top-left-radius: ; */
+
+
+
+}
+
+.principale ul,li{
+    list-style-type: none;
+    
+}
 
