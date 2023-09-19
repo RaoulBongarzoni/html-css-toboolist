@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+.logoback{
+    background-color:aliceblue;
+    background-repeat: repeat-x;
+    padding: 0.5em 1em;
+    position: relative;
+}
+
+
+.logoback h1{
+    display: inline-block;
+    font-weight: 900;
+    vertical-align: 30%;
+} 
+
